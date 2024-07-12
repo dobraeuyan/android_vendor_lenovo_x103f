@@ -15,4 +15,7 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/lenovo/x103f/overlay
 
+PRODUCT_PACKAGES += \
+    TimeService
+
 $(call inherit-product, vendor/lenovo/x103f/x103f-vendor-blobs.mk)
