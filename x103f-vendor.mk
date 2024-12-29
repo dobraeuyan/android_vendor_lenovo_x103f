@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x103f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/x103f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/x103f/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lenovo/x103f/proprietary/lib/libtsvideoprocess.so:system/lib/libtsvideoprocess.so \
     vendor/lenovo/x103f/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/lenovo/x103f/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/lenovo/x103f/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
