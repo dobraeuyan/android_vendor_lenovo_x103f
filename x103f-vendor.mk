@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x103f/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/x103f/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/x103f/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lenovo/x103f/proprietary/bin/serialno:system/bin/serialno \
     vendor/lenovo/x103f/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lenovo/x103f/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lenovo/x103f/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -303,6 +302,4 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
     TimeService \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    QtiTetherService
+    com.qualcomm.location
