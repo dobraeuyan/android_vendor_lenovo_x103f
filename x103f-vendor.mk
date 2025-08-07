@@ -82,18 +82,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x103f/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lenovo/x103f/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/x103f/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/lenovo/x103f/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/lenovo/x103f/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/lenovo/x103f/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lenovo/x103f/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/lenovo/x103f/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lenovo/x103f/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/lenovo/x103f/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/x103f/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lenovo/x103f/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lenovo/x103f/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
@@ -301,5 +303,4 @@ PRODUCT_PACKAGES += \
     libqmi \
     libtime_genoff \
     libTimeService \
-    TimeService \
-    com.qualcomm.location
+    TimeService
