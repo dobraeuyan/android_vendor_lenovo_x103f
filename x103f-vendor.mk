@@ -60,33 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x103f/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/lenovo/x103f/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/lenovo/x103f/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lenovo/x103f/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/lenovo/x103f/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/lenovo/x103f/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/lenovo/x103f/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -99,7 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x103f/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lenovo/x103f/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lenovo/x103f/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/lenovo/x103f/proprietary/lib/hw/camera.msm8909.so:system/lib/hw/camera.msm8909.so \
+    vendor/lenovo/x103f/proprietary/lib/hw/camera.vendor.msm8909.so:system/lib/hw/camera.vendor.msm8909.so \
     vendor/lenovo/x103f/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lenovo/x103f/proprietary/lib/hw/lights.msm8909.so:system/lib/hw/lights.msm8909.so \
     vendor/lenovo/x103f/proprietary/lib/hw/sensors.msm8909.so:system/lib/hw/sensors.msm8909.so \
@@ -116,6 +89,28 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/x103f/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/x103f/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/x103f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/lenovo/x103f/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lenovo/x103f/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lenovo/x103f/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lenovo/x103f/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
